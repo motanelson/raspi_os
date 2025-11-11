@@ -67,7 +67,7 @@ module roda() {
         
         // Aro
         
-        //rotate([90,0,0])
+        rotate([90,0,0])
         cylinder(h=largura_roda*1, r=5, center=false, $fn=30);
         
         
