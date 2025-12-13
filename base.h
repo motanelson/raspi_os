@@ -1,7 +1,7 @@
 #include <stddef.h>
 #include <stdint.h>
 #define FONTDATAMAX 2048
-char *rdfs_start="hello.txt|hello world...|filea.txt|same Text";
+char *rdfs_start;
 #define VGA_SEQ_INDEX 0x3C4
 #define VGA_SEQ_DATA  0x3C5
 #define VGA_GC_INDEX  0x3CE
@@ -6077,4 +6077,9 @@ void dirs(char *cc) {
         p++;
     }
                 
+}
+char  *starts(){
+    rdfs_start=(char *)"hello.txt|hello world...|filea.txt|same Text";
+    return rdfs_start;
+
 }
