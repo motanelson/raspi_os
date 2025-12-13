@@ -12,6 +12,8 @@ _start:
 b1:	hlt
 	jmp b1
 
+     
+
 .section .multiboot
 .align 4
 
